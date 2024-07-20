@@ -37,6 +37,7 @@ function handleDateSelection(selectedDates) {
     disableStartButton();
   } else {
     enableStartButton();
+    iziToast.destroy();
   }
 }
 
